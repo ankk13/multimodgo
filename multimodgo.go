@@ -6,6 +6,8 @@ import (
 
 // Hello
 // Hello world funct
-func Hello() {
-	fmt.Println("Hello World")
+func Hello() string {
+	str := "Hello, World."
+	fmt.Println(str)
+	return str
 }
